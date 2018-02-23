@@ -1,0 +1,38 @@
+html, body, div[data-reactroot], div#root,
+div.container-fluid {
+  height: 100%;
+}
+
+div.App-body {
+  position: relative;
+  height: 100%;
+}
+
+.vizceral-side {
+  z-index: 100;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  /* top: 190px; */
+  width: 15em;
+  padding: 0.5em;
+}
+
+.breadcrumb ul {
+  color: gray;
+}
+
+.breadcrumb ul li:last-child {
+  color: red;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: inherit;
+}
+
+div.vizceral-container {
+  padding-left: 15em;
+  position: relative;
+  height: 100%;
+}
